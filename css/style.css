@@ -1,0 +1,351 @@
+
+
+/* General properties */
+body{
+    background-color: #2e2d32;
+    color: #fff;
+
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ee4035;
+}
+
+/* Navbar section */
+header .nav-link{
+    padding: .5em .3em;
+}
+header ul{
+    border: 1px solid #fff;
+    border-left: none;
+}
+
+header ul a{
+    color: #fff;
+}
+header .logo{
+    color: #fff;
+    border: 1px solid #fff !important;
+    border-top: none !important;
+    font-family: 'Caveat', cursive !important;
+    font-size: 26pt !important;
+    font-weight: bold !important;
+}
+
+header .logo span{
+    font-size: 36pt;
+}
+header .social{
+    border: 1px solid #fff;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+header .row{
+    margin-right: -16px;
+}
+
+nav .logo{
+    border: none !important;
+}
+
+/* Cover section */
+.cover h2{
+    letter-spacing: 3px;
+}
+
+.cover span{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* About us section */
+
+.about{
+    border: 1px solid #fff;
+}
+
+.scrol{
+    width: 110px;
+    margin-top: -14px;
+    border: 1px solid #fff;
+    border-top: none;
+    border-bottom: none;
+    background-color: #2e2d32;
+    text-align: center;
+}
+
+.texcen{
+    text-align-last: center;
+}
+
+.about hr{
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.absol{
+    border: 1px solid #fff;
+    border-right: none;
+    border-left: none;
+}
+
+.satop{
+    height: 67%;
+    border: 1px solid #fff;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.sinced{
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+.satop hr{
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.sabot{
+    height: 33%;
+    border: 1px solid #fff;
+    border-right: none;
+    border-left: none;
+}
+
+.absa .row{
+    margin: 0;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .absol{
+        border: 1px solid #fff;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .satop{
+        height: 67%;
+        border: 1px solid #fff;
+        border-top: none;
+    }
+    
+    .sabot{
+        height: 33%;
+        border: 1px solid #fff;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .absa .row{
+        margin: 0;
+    }
+
+    .satop{
+        border-bottom: none;
+        height: 100%;
+    }
+
+    
+
+    
+
+    .sabot{
+        border-left: none;
+        height: 100%;
+    }
+}
+
+/* Soz section */
+.soz{
+    letter-spacing: 5px;
+    
+}
+
+/* Products section */
+.products .sol{
+    border: 1px solid #fff;
+    border-left: none;
+}
+
+.products hr{
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.products .carousel-caption{
+    position: relative;
+    right: auto;
+    left: auto;
+}
+
+.products .carousel-caption hr{
+    background-color: #f00;
+    width: 30px;
+}
+
+.sag{
+    border: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+}
+
+.asagi{
+    border-top: 1px solid #fff;
+}
+
+
+.yuksag{
+    border-left: 1px solid #fff;
+}
+
+.yuksolyuk{
+    height: 50%;
+    border-bottom: 1px solid #fff;
+}
+
+.join{
+    font-size: .5rem;
+}
+
+.talkbubble {
+    width: 120px;
+    height: 35px;
+    position: relative;
+    background: #fff;
+    font-family: Tahoma;
+    font-weight: bold;
+    -moz-text-align: center;
+    text-align: center;
+    color: #2e2d32;
+}
+.talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 90%;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-bottom: 18px solid transparent;
+    border-top: 18px solid transparent;
+    border-left: 12px solid #2e2d32;
+}
+.talkbubble:after {
+    content: "";
+    position: absolute;
+    right: -15%;
+    top: 0px;
+    width: 0;
+    height: 0px;
+    border-bottom: 17px solid transparent;
+    border-top: 18px solid transparent;
+    border-left: 18px solid #fff;
+}
+
+@media screen and (max-width: 767px){
+    .products .sol{
+        border: 1px solid #fff;
+        border-top: none;
+    }
+
+    .sag{
+        border: 1px solid #fff;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .asagi{
+        border-left: 1px solid #fff;
+        border-top: none;
+    }
+    
+    
+    .yuksag{
+        border-top: 1px solid #fff;
+        border-left: none;
+    }
+    
+    .yuksolyuk{
+        height: 100%;
+        border-right: 1px solid #fff;
+        border-bottom: none;
+    }
+
+    .sag .row{
+        margin: 0;
+    }
+
+    .yukari{
+        padding: 0;
+    }
+
+}
+
+/* Subscribe section */
+.subscribe hr{
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.subscribe *{
+    background-color: #2e2d32;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* Mission section */
+.mission .container{
+    border-top: 1px solid #fff;
+}
+
+.mission .ourm{
+    border: 1px solid #fff;
+    border-top: none;
+    border-bottom: none;
+}
+
+.mission hr{
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 767px){
+    .mission .container{
+        border: 1px solid #fff;
+        border-top: none;
+        border-bottom: none;
+        
+    }
+    
+    .mission .ourm{
+        border: 1px solid #fff;
+        border-right: none;
+        border-left: none;
+    }
+}
+
+footer .foo{
+    border: 1px solid #fff;
+    border-right: none;
+    border-left: none;
+}
+
+footer .follow{
+    border: 1px solid #fff;
+    border-top: none;
+    border-bottom: none;
+}
